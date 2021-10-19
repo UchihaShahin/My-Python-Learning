@@ -1,7 +1,7 @@
 # we are starting from if loop of python
 
 is_hot = True
-is_cold= True
+is_cold = True
 
 if is_hot:
     print("it's a Hot Day")
