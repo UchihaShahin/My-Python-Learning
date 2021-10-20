@@ -1,5 +1,4 @@
 secret_number = ((6*6)+(5*5*5)+(4*4*4*4)+(3*3*3*3*3)+(2*2*2*2*2*2)-(3*3*3+2*2))
-i=0
 while (1):
     guess= int(input("Enter a number between 1 to 1000: "))
 
@@ -25,16 +24,13 @@ while (1):
         print("You're far away.\nAdd some more numbers I recommend +60.\n")
 
     elif 601 <= guess <= 650:
-        print("You're close.\nAdd some more numbers I recommend +40.\n");
-
+        print("You're close.\nAdd some more numbers I recommend +40.\n")
 
     elif 651 <= guess <= 710 and guess != secret_number:
         print("A little bit more.\nYour answer is here: (6^2+5^3+4^4+3^5+2^6-3^3-2^2)\nLets calculate it.\n")
 
-
     elif 711 <= guess <= 750:
         print("Ohh!!! you cross the correct answer.\nYour answer is here: (6^2+5^3+4^4+3^5+2^6-3^3-2^2)\nLets calculate it.\n")
-
 
     elif 751 <= guess <= 850:
         print("You're far far away.\nSubtract some numbers. I recommend -40.\n")
